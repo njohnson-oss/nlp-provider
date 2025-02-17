@@ -1,0 +1,27 @@
+[project]
+name = "nlp-provider"
+version = "0.1.0"
+description = "Shared nlp instance for Altspell plugins."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+  { name="Nicholas Johnson", email="njohnson@posteo.net" },
+]
+classifiers = [
+  "Private :: Do Not Upload",
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python",
+  "License-Expression :: GPL-3.0-or-later",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+    "spacy"
+]
+
+[build-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.module]
+name = "nlp_provider"
