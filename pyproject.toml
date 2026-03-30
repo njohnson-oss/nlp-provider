@@ -15,7 +15,7 @@ classifiers = [
   "Operating System :: OS Independent",
 ]
 dependencies = [
-    "spacy==3.8.11"
+    "spacy==3.8.14"
 ]
 
 [build-system]
